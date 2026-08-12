@@ -4,7 +4,7 @@ An explainable AI tool that scores how well a resume matches a job description �
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 ---
 
@@ -128,23 +128,7 @@ resume_matcher/
 └── README.md
 ```
 
----
 
-## 🖼️ Adding your own screenshots
-
-1. Run the app locally (`streamlit run app.py`) and use it in your browser.
-2. Take a screenshot:
-   - **Windows:** `Win + Shift + S`, select the app window, save as PNG.
-   - **Mac:** `Cmd + Shift + 4`, drag to select the app window.
-   - **Linux:** use your screenshot tool (e.g. `gnome-screenshot -a`).
-3. Save the files into the `screenshots/` folder in this repo — e.g. `screenshots/home.png` and `screenshots/result.png`.
-4. Commit and push:
-   ```bash
-   git add screenshots/
-   git commit -m "Add app screenshots"
-   git push
-   ```
-5. They'll automatically show up in the table under **📸 Screenshots** above once pushed to GitHub.
 
 ---
 
@@ -154,10 +138,3 @@ resume_matcher/
 - Add a vector database (FAISS/Chroma) to match one resume against *many* job postings at once.
 - Use NER models (e.g. spaCy `en_core_web_trf`) instead of keyword matching for more robust skill extraction.
 - Add authentication + history to track match-score improvement over time.
-- Deploy on **Streamlit Community Cloud** (free) and link the live app on your resume/LinkedIn.
-
----
-
-## 📝 License
-
-MIT — free to use and modify for your own projects.
